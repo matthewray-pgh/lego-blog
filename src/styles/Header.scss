@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+$primary-font: 'Vina Sans', sans-serif;
+
+$header-background-color: #ffffff;
+$header-text-color: #ff0000;
+$header-link-color: #000000;
+
+.header {
+  background-color: $header-background-color;
+  color: $header-text-color;
+
+  display: grid;
+  grid-template-columns: 125px 3fr 2fr;
+  align-items: center;
+
+  padding: 5px 0px;
+
+  &__title {
+    font-family: $primary-font;
+    font-size: 4em;
+
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: $header-link-color;
+
+      font-family: $primary-font;
+      font-size: 1.5em;
+      cursor: pointer;
+
+      &:hover {
+        color: $header-text-color;
+
+        text-shadow:
+            2px 2px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+      }
+    }
+  }
+}

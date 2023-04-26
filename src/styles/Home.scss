@@ -1,0 +1,46 @@
+.home {
+    margin: 0 300px;
+    height: 100vh;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__topic {
+    padding: 40px 20px;
+    
+    &--title {
+      margin: 0 auto;
+      padding: 10px 0 5px 0;
+      font-size: 1.1em;
+      font-weight: 700;
+    }
+
+    &--image {
+      padding: 30px 0;
+    }
+
+    &--blurb {
+      padding: 30px 0;
+      font-size: 0.9em;
+    }
+
+    &--link {
+      margin: 20px auto;
+      color: #afafaf;
+      text-decoration: none;
+      text-align: center;
+      font-size: 0.9em;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    &--date {
+      font-size: 0.75em;
+      color: #858585;
+    }
+  }
+}
