@@ -1,5 +1,4 @@
 .home {
-    margin: 0 300px;
     height: 100vh;
 
   &__content {
@@ -50,3 +49,32 @@
     }
   }
 }
+
+/* mobile */
+@media (max-width: 600px) {
+  .home {
+      margin: 0 20px;
+
+      &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+}
+
+/* small screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home {
+      margin: 0 100px;
+  }
+}
+
+/* full screen */
+@media (min-width: 1024px) {
+  .home {
+      margin: 0 300px;
+  }
+}
+
