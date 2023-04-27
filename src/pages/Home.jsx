@@ -29,7 +29,7 @@ export const Home = () => {
         })}
       </section>
       <section className="home__ad-content">
-        <Ads dataAdSlot="1234567890" />
+        <Ads dataAdSlot="7639151624950947" />
       </section>
     </div>
   );
