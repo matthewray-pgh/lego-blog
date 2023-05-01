@@ -9,12 +9,15 @@ export const Header = () => {
     <>
       <section className="header">
         <img src={logo} alt="Lego brick" className="header__image" />
-        <div className="header__title">Little Brick Blog</div>
-        <menu className="header__nav">
-          <div><Link href="/">Topics</Link></div>
-          <div><Link href="/">Sets</Link></div>
-          <div><Link href="/">Builds</Link></div>
-        </menu>
+        <div className="header__title">
+          <Link to="/">Little Brick Blog</Link>
+        </div>
+        {/* TO DO */}
+        {/* <menu className="header__nav">
+          <div><Link to="/">Topics</Link></div>
+          <div><Link to="/">Sets</Link></div>
+          <div><Link to="/">Builds</Link></div>
+        </menu> */}
       </section>
     </>
     

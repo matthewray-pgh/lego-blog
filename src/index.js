@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import "./styles/index.scss";
 
 //server side rendering
-const root = ReactDOM.hydrateRoot(document.getElementById('root'));
+// const root = ReactDOM.hydrateRoot(document.getElementById('root'));
 
 //client side rendering
-// const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />

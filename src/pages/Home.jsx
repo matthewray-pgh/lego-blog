@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Header } from "../components/Header";
-import { Ads } from "../components/Ads";
 
-import topics from '../assets/TopicSummarys.json';
+import topics from '../assets/Topics.json';
 
 import '../styles/Home.scss';
 
@@ -12,9 +11,9 @@ export const Home = () => {
     <div className="home">
       <Header />
       <section className="home__content">
-        {topics.map((topic, index) => {
+        {topics.map((topic) => {
           return (
-            <React.Fragment key={`${topic.title}-${index}-${topic.date}`}>
+            <React.Fragment key={`${topic.title}-${topic.id}-${topic.date}`}>
               <div className="home__topic--image" key={topic.title}>
                 <img src={require(`../assets/${topic.image}.png`)} alt={topic.title} />
               </div>
@@ -27,9 +26,6 @@ export const Home = () => {
             </React.Fragment>
           );
         })}
-      </section>
-      <section className="home__ad-content">
-        <Ads dataAdSlot="7639151624950947" />
       </section>
     </div>
   );
