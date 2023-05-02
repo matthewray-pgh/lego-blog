@@ -6,7 +6,7 @@
   "article": "Whole article",
   "image": "brick-logo",
   "url": "/topic/0",
-  "file": "/assets/blog/0.json",
+  "filename": "blogfilename",
   "active": "true",
   "home": "false"
 }

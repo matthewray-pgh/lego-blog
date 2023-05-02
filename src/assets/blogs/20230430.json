@@ -1,54 +1,48 @@
 {
   "id": "5",
-  "html": {
-    "h1": "Family Visit to LEGOLAND Discovery Center Columbus Ohio",
-    "p": [
-      "If you're looking for a fun family brick-tacular time in Columbus, Ohio, LEGOLAND Discovery Center is definitely worth a visit. This indoor attraction is a must-see for LEGO enthusiasts of all ages. With its towering LEGO buildings and intricate sculptures, you'll feel like you've stepped into a world where everything is awesome.",
-      {
-        "img": {
-          "src": "legoland1.jpg",
-          "alt": "Picture of LEGO creations"
-        }
-      },
-      "The first thing you'll notice when you enter LEGOLAND Discovery Center is the incredible LEGO creations. From towering LEGO buildings to intricate LEGO sculptures, there's something to marvel at around every corner. The attention to detail is amazing, and you'll be blown away by the creativity on display.",
-      "One of the highlights of LEGOLAND Discovery Center is the LEGO Factory Tour, which takes you through a virtual experience of the process of how LEGO bricks are made. The LEGO Factory Tour is sure to put a brick in your step. You'll get to see how the magic happens and even make your own brick - just don't step on it!",
-      {
-        "img": {
-          "src": "legoland2.jpg",
-          "alt": "Picture of DUPLO Village"
-        }
-      },
-      "For younger children, the DUPLO Village is a must-visit. This area is specifically designed for children aged 2-5, and features larger DUPLO bricks for smaller hands to play with. There are also interactive areas where kids can build, play, and explore.",
-      "Another popular attraction at LEGOLAND Discovery Center is the 4D Cinema. This cinema experience is unlike any other, as you'll feel like you're part of the movie thanks to special effects like wind, rain, and even snow. The movies are all family-friendly, and there are multiple showings throughout the day.",
-      {
-        "img": {
-          "src": "legoland3.jpg",
-          "alt": "Picture of LEGO Ninjago Training Camp"
-        }
-      },
-      "If you are in need of a break from all the brick-building fun you cabn head over to the LEGO store for some brick-souvenirs to take home. You'll be the envy of all your friends with your brick-tastic swag!",
-      "Overall, LEGOLAND Discovery Center in Columbus, Ohio is a great family outing. The attractions are all family-friendly and designed to appeal to a wide range of ages. It's also a great place to beat the heat or escape the cold, since it's an indoor attraction.",
-      {
-        "h2": "Tips for Visiting LEGOLAND Discovery Center in Columbus, Ohio:"
-      },
-      {
-        "ul": {
-          "li": [
-            "Buy tickets online in advance to save time and money.",
-            "Arrive early to avoid the crowds.",
-            "Wear comfortable shoes, as there's a lot of walking involved.",
-            "Bring a camera, as there are plenty of photo opportunities.",
-            "Consider purchasing a souvenir from the LEGO store on your way out."
-          ]
-        }
-      },
-      {
-        "img": {
-          "src": "legoland4.jpg",
-          "alt": "Picture of LEGO store"
-        }
-      },
-      "So, if you're looking for a fun and educational family outing in Columbus, Ohio, make sure to add LEGOLAND Discovery Center to your list of must-see attractions."
-    ]
-    }
-  }
+  "title": "Family Visit to LEGOLAND Discovery Center Columbus Ohio",
+  "subtitle": "A brick-tacular time for the whole family",
+  "date": "2023-04-23",
+  "html": [
+    {"h1": "Family Visit to LEGOLAND Discovery Center Columbus Ohio"},
+    {"p": "If you're looking for a fun family brick-tacular time in Columbus, Ohio, LEGOLAND Discovery Center is definitely worth a visit. This indoor attraction is a must-see for LEGO enthusiasts of all ages. With its towering LEGO buildings and intricate sculptures, you'll feel like you've stepped into a world where everything is awesome."},
+    {"img": {
+      "src": "legoland1",
+      "alt": "Picture of LEGO creations"
+      }
+    },
+    {"p": "The first thing you'll notice when you enter LEGOLAND Discovery Center is the incredible LEGO creations. From towering LEGO buildings to intricate LEGO sculptures, there's something to marvel at around every corner. The attention to detail is amazing, and you'll be blown away by the creativity on display."},
+    {"p":"One of the highlights of LEGOLAND Discovery Center is the LEGO Factory Tour, which takes you through a virtual experience of the process of how LEGO bricks are made. The LEGO Factory Tour is sure to put a brick in your step. You'll get to see how the magic happens and even make your own brick - just don't step on it!"},
+    {"img": {
+        "src": "legoland2",
+        "alt": "Picture of DUPLO Village"
+      }
+    },
+    {"p": "For younger children, the DUPLO Village is a must-visit. This area is specifically designed for children aged 2-5, and features larger DUPLO bricks for smaller hands to play with. There are also interactive areas where kids can build, play, and explore."},
+    {"p": "Another popular attraction at LEGOLAND Discovery Center is the 4D Cinema. This cinema experience is unlike any other, as you'll feel like you're part of the movie thanks to special effects like wind, rain, and even snow. The movies are all family-friendly, and there are multiple showings throughout the day."},
+    {"img": {
+        "src": "legoland4",
+        "alt": "Picture of LEGO Ninjago Training Camp"
+      }
+    },
+    {"p": "If you are in need of a break from all the brick-building fun you can head over to the LEGO store for some brick-souvenirs to take home. You'll be the envy of all your friends with your brick-tastic swag!"},
+    {"p": "Overall, LEGOLAND Discovery Center in Columbus, Ohio is a great family outing. The attractions are all family-friendly and designed to appeal to a wide range of ages. It's also a great place to beat the heat or escape the cold, since it's an indoor attraction."},
+    {"h2": "Tips for Visiting LEGOLAND Discovery Center in Columbus, Ohio:"},
+    {"ul": {
+        "li": [
+          "Buy tickets online in advance to save time and money.",
+          "Arrive early to avoid the crowds.",
+          "Wear comfortable shoes, as there's a lot of walking involved.",
+          "Bring a camera, as there are plenty of photo opportunities.",
+          "Consider purchasing a souvenir from the LEGO store on your way out."
+        ]
+      }
+    },
+    {"img": {
+        "src": "legoland5",
+        "alt": "Picture of LEGO store"
+      }
+    },
+    {"p": "So, if you're looking for a fun and educational family outing in Columbus, Ohio, make sure to add LEGOLAND Discovery Center to your list of must-see attractions."}
+  ]
+}
