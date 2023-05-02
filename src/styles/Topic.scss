@@ -19,6 +19,34 @@
         object-fit: cover;
       }
     }
+
+    &--title {
+      margin: 0 auto;
+      padding: 10px 0;
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+
+    &--subtitle {
+      margin: 0 auto;
+      padding: 10px 0;
+      font-size: 1.05em;
+      font-weight: 700;
+    }
+
+    &--date {
+      font-size: 0.75em;
+      color: #858585;
+    }
+
+    &--text {
+      font-size: 0.9em;
+    }
+
+    &--unordered-list {
+      font-size: 0.9em;
+      margin: 10px;;
+    }
   }
 }
 

@@ -12,12 +12,11 @@ export const Header = () => {
         <div className="header__title">
           <Link to="/">Little Brick Blog</Link>
         </div>
-        {/* TO DO */}
-        {/* <menu className="header__nav">
-          <div><Link to="/">Topics</Link></div>
-          <div><Link to="/">Sets</Link></div>
-          <div><Link to="/">Builds</Link></div>
-        </menu> */}
+        <menu className="header__nav">
+          <div><Link to="/topics">Topics</Link></div>
+          <div><Link to="/sets">Sets</Link></div>
+          <div><Link to="/builds">Builds</Link></div>
+        </menu>
       </section>
     </>
     

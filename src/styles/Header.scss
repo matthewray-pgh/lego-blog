@@ -5,20 +5,21 @@ $header-background-color: #ffffff;
 $header-text-color: #ff0000;
 $header-link-color: #000000;
 $header-mobile-text-color: #ffcc00;
+$header-hover-text-color: #199325;
 
 .header {
   background-color: $header-background-color;
   color: $header-text-color;
 
   display: grid;
-  grid-template-columns: 125px 1fr;
+  grid-template-columns: 75px 1fr 1fr;
   align-items: center;
 
-  padding: 5px 0px;
+  padding: 20px 0px;
 
   &__title {
     font-family: $primary-font;
-    font-size: 4em;
+    font-size: 3em;
 
     text-shadow:
         3px 3px 0 #000,
@@ -29,7 +30,7 @@ $header-mobile-text-color: #ffcc00;
     
     & a {
         text-decoration: none;
-        color: $header-text-color;
+        color: $header-mobile-text-color;
       }
   }
 
@@ -51,7 +52,7 @@ $header-mobile-text-color: #ffcc00;
       cursor: pointer;
 
       &:hover {
-        color: $header-mobile-text-color;
+        color: $header-hover-text-color;
 
         text-shadow:
             2px 2px 0 #000,
@@ -74,7 +75,7 @@ $header-mobile-text-color: #ffcc00;
     grid-template-columns: 50px 1fr;
     align-items: center;
 
-    padding: 5px 0px;
+    padding: 10px 0px;
 
     &__title {
       font-size: 3em;
@@ -87,6 +88,7 @@ $header-mobile-text-color: #ffcc00;
 
     &__nav {
       grid-column: 1 / 3;
+      align-items: center;
     }
   }
 }
