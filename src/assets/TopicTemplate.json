@@ -1,7 +1,12 @@
 {
+  "id": "0",
   "title": "title",
   "date": "2023-04-22",
   "summary": "Blurb",
-  "image": "brick-logo", 
-  "url": "/url-here"
+  "article": "Whole article",
+  "image": "brick-logo",
+  "url": "/topic/0",
+  "filename": "blogfilename",
+  "active": "true",
+  "home": "false"
 }

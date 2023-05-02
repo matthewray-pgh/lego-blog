@@ -1,15 +1,17 @@
-import { MemoryRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
+import { Topic } from "./pages/Topic";
 
 import "./styles/App.scss";
 
 function App() {
   return (
-    <MemoryRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/topic/:id" element={<Topic />} />
       </Routes>
-    </MemoryRouter>
+    </BrowserRouter>
   );
 }
 

@@ -1,30 +1,61 @@
 [
   {
+    "id": "0",
     "title": "Best Licensed Lego Sets",
     "date": "2023-04-22",
     "summary": "Marvel, Star Wars, Disney, etc. What is the best licensed lego sets available? We weill dig into the bricks and give you all of the details.",
+    "article": "",
     "image": "brick-logo",
-    "url": "/lego-sets/"
+    "url": "/topic/0",
+    "filename": "20230430",
+    "active:": "true",
+    "home": "true"
   },
   {
+    "id": "1",
     "title": "Lego Unveils New Star Wars Sets",
-    "date": "2023-04-22",
+    "date": "2023-04-24",
     "summary": "Lego has just announced the release of several new Star Wars sets, including the iconic Millennium Falcon and the fearsome AT-AT walker. These sets are sure to be a hit with both Star Wars and Lego fans, and are perfect for recreating your favorite scenes from the movies.",
+    "article": "",
     "image": "brick-logo",
-    "url": "/lego-sets/"
+    "url": "/topic/1",
+    "filename": "20230430",
+    "active:": "true",
+    "home": "true"
   },
   {
+    "id": "2",
     "title": "The Top 10 Lego Sets of All Time",
-    "date": "2023-04-22",
+    "date": "2023-04-26",
     "summary": "What are the best Lego sets of all time? We've compiled a list of our top 10 favorites, from classic sets like the Lego City Police Station to modern masterpieces like the Lego Architecture series. Whether you're looking for a challenging build or just want to relive some childhood memories, these sets are sure to delight.",
+    "article": "",
     "image": "brick-logo",
-    "url": "/lego-sets/"
+    "url": "/topic/2",
+    "filename": "20230430",
+    "active:": "true",
+    "home": "true"
   },
   {
+    "id": "3",
     "title": "Lego Ideas: A Platform for Fan-Made Creations",
-    "date": "2023-04-22",
+    "date": "2023-04-28",
     "summary": "Lego Ideas is a platform that allows Lego fans to submit their own creations for consideration as official Lego sets. From a giant Lego dinosaur to a fully functioning Lego piano, the possibilities are endless. In this article, we'll take a closer look at some of the most impressive fan-made creations on Lego Ideas and explore how the platform works.",
+    "article": "",
     "image": "brick-logo",
-    "url": "/lego-sets/"
+    "url": "/topic/3",
+    "filename": "20230430",
+    "active:": "true",
+    "home": "true"
+  },
+  {
+    "id": "5",
+    "title": "Family Visit to LEGOLAND Discovery Center Columbus Ohio",
+    "date": "2023-04-30",
+    "summary": "If you're looking for a fun family brick-tacular time in Columbus, Ohio, LEGOLAND Discovery Center is definitely worth a visit. This indoor attraction is a must-see for LEGO enthusiasts of all ages. With its towering LEGO buildings and intricate sculptures, you'll feel like you've stepped into a world where everything is awesome.",
+    "image": "legoland1",
+    "url": "/topic/5",
+    "filename": "20230430",
+    "active:": "true",
+    "home": "true"
   }
 ]
