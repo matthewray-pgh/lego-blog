@@ -1,0 +1,24 @@
+.sets {
+  height: 100vh;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .sets {
+    margin: 0 20px;
+  }
+}
+
+/* small screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sets {
+    margin: 0 100px;
+  }
+}
+
+/* full screen */
+@media (min-width: 1024px) {
+  .sets {
+    margin: 0 300px;
+  }
+}

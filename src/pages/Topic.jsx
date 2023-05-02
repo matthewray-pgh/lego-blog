@@ -19,14 +19,48 @@ export const Topic = () => {
       .catch((err) => console.log(err));
   },[urlParams.id, topic.image]);
 
+  const renderTopic = (data) => {
+    return(
+      // eslint-disable-next-line array-callback-return
+      data && data.map((d, index) => {
+        if(d.p) {
+          return (
+            <p className="topic__content--text" key={index}>{d.p}</p>
+          );
+        } else if(d.img) {
+          return (
+            <div className="topic__content--image" key={index}>
+              <img src={require(`../assets/${d.img.src}.png`)} alt={d.alt} />
+            </div>
+          )
+        } else if(d.h2) {
+          return (
+            <h2 className="topic__content--subtitle" key={index}>{d.h2}</h2>
+          )
+        } else if(d.ul) {
+          return (
+            <ul className="topic__content--unordered-list" key={index}>
+              {d.ul.li.map((listitem, index) => {
+                return (
+                  <li className="topic__content--text" key={index}>{listitem}</li>
+                )
+              })}
+            </ul>
+          )}
+        }
+      )
+    )
+  }
+
   return (
     <div className="topic">
       <Header />
       <section className="topic__content">
-        <h1>{topic.title}</h1>
-        <h3>{topic.subtitle}</h3>
-        <div>{topic.date}</div>
-        {topic.html && topic.html.map((item, index) => {
+        <h1 className="topic__content--title">{topic.title}</h1>
+        <h3 className="topic__content--subtitle">{topic.subtitle}</h3>
+        <div className="topic__content--date">{topic.date}</div>
+        {renderTopic(topic.html)}
+        {/* {topic.html && topic.html.map((item, index) => {
           if(item.p) {
             return (
               <p key={index}>{item.p}</p>
@@ -51,7 +85,7 @@ export const Topic = () => {
                 })}
               </ul>
             )}
-        })}
+        })} */}
       </section>
     </div>
   )

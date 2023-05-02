@@ -1,6 +1,28 @@
 .home {
     height: 100vh;
 
+  &__intro {
+    background-image: url('../assets/bricks5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+
+    h2 {
+      margin: 0 auto;
+      padding: 0px;
+    }
+
+    &--text {
+      width: 400px;
+      background-color: rgba(2, 2, 2, 0.5);
+      color: #fff;
+      border-radius: 5px;
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,7 +57,7 @@
 
     &--link {
       margin: 20px auto;
-      color: #afafaf;
+      color: #199325;;
       text-decoration: none;
       text-align: center;
       font-size: 0.9em;
@@ -54,6 +76,16 @@
 @media (max-width: 600px) {
   .home {
       margin: 0 20px;
+
+      &__intro {
+        background-image: url('../assets/bricks6-mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &--text {
+          width: 80%;
+        }
+      }
 
       &__content {
         display: grid;
@@ -94,7 +126,7 @@
 /* full screen */
 @media (min-width: 1024px) {
   .home {
-      margin: 0 300px;
+      margin: 0 200px;
   }
 }
 
