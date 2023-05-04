@@ -6,7 +6,7 @@
   "html" : [
     {
       "img": {
-        "src": "75355-5",
+        "src": "sets/75355/75355-5",
         "alt": "x-wing starfighter"
       }
     },
@@ -15,7 +15,7 @@
     },
     {
       "img": {
-        "src": "75355-2",
+        "src": "sets/75355/75355-2",
         "alt": "x-wing starfighter"
       }
     },
@@ -27,7 +27,7 @@
     },
     {
       "img": {
-        "src": "75355-1",
+        "src": "sets/75355/75355-1",
         "alt": "x-wing starfighter"
       }
     },
@@ -39,7 +39,7 @@
     },
     {
       "img": {
-        "src": "75355-4",
+        "src": "sets/75355/75355-4",
         "alt": "x-wing starfighter"
       }
     },
