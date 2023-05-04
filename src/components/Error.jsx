@@ -1,7 +1,7 @@
 import React from "react";
 
 import '../styles/Error.scss';
-import construction from '../assets/construction.png';
+import work from '../assets/work.png';
 
 export const Error = () => {
   return (
@@ -12,12 +12,12 @@ export const Error = () => {
   );
 };
 
-export const UnderConstruction = () => {
+export const Unavailable = () => {
   return (
-    <div className="under-construction">
-      <h2>Oops! This page is still under construction.</h2>
-      <p>Sorry, this page is still being built. Please check back later.</p>
-      <img className="under-construction__image" src={construction} alt="Under Construction" />
+    <div className="unavailable">
+      <h2>Oops! This page is unavailable.</h2>
+      <p>Sorry, this page is being worked on. Please check back later.</p>
+      <img className="unavailable__image" src={work} alt="unavailable" />
     </div>
   );
 }

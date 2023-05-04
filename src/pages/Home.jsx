@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Header } from "../components/Header";
 
 import topics from '../assets/Topics.json';
-
 import '../styles/Home.scss';
 
 export const Home = () => {
