@@ -47,9 +47,11 @@ export const Set = () => {
           </section>
         </div>
         <div className="set__content--description">{set.description}</div>
-        <a className="set__content--link" href={set.affliateLink}>
-          Show Me More
-        </a>
+        {set.affliateLink && 
+          <a className="set__content--link" href={set.affliateLink}>
+            Show Me More
+          </a>
+        }
       </section>
     </div>
   );
