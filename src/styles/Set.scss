@@ -52,14 +52,14 @@
       }
 
       &-heading {
-        color: #8dd9e4;
+        color: #65b2be;
         font-size: 1.25em;
         font-weight: 500;
         font-variant: small-caps;
       }
 
       &-data {
-        color: #8dd9e4;
+        color: #65b2be;
         font-size: 2em;
         font-weight: 700;
       }
@@ -95,6 +95,24 @@
 @media (max-width: 600px) {
   .set {
     margin: 0 20px;
+
+    &__content {
+      &--data {
+        grid-template-columns: 1fr;
+      }
+
+      &--details {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px 0;
+      }
+
+      &--link {
+        margin: 20px 0;
+        display: block;
+        width: 90%;
+      }
+    }
   }
 }
 
