@@ -2,8 +2,7 @@ import React, {useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 import { Header } from "../components/Header";
 
-import sets from '../assets/Sets.json';
-
+import setsData from '../assets/sets/master.json';
 import '../styles/Set.scss';
 
 export const Set = () => {
@@ -11,10 +10,9 @@ export const Set = () => {
   const urlParams = useParams();
 
   useEffect(() => {
-    const setId = urlParams.id.toString();
-    import(`../assets/sets/${setId}/${setId}.json`)
-      .then((module) => setSet(module.default))
-      .catch((err) => console.log(err));
+    const id = urlParams.id.toString();
+    const details = setsData.find(set => set.item === id);
+    setSet(details);
   },[urlParams.id]);
 
   return (
@@ -25,7 +23,9 @@ export const Set = () => {
         <h3 className="set__content--subtitle">{set.category}</h3>
         <div className="set__content--data">
           <a href={set.affliateLink}>
-            <img className="set__content--image" border="0" src={set.imageUrl} alt="" />
+            {set.image && 
+              <img className="set__content--image" border="0" src={require(`../assets/sets/${set.image}`)} alt="" />
+            }
           </a>
           <section className="set__content--details">
             <div>

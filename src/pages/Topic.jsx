@@ -60,32 +60,6 @@ export const Topic = () => {
         <h3 className="topic__content--subtitle">{topic.subtitle}</h3>
         <div className="topic__content--date">{topic.date}</div>
         {renderTopic(topic.html)}
-        {/* {topic.html && topic.html.map((item, index) => {
-          if(item.p) {
-            return (
-              <p key={index}>{item.p}</p>
-            );
-          } else if(item.img) {
-            return (
-              <div className="topic__content--image" key={index}>
-                <img src={require(`../assets/${item.img.src}.png`)} alt={item.alt} />
-              </div>
-            )
-          } else if(item.h2) {
-            return (
-              <h2 key={index}>{item.h2}</h2>
-            )
-          } else if(item.ul) {
-            return (
-              <ul key={index}>
-                {item.ul.li.map((listitem, index) => {
-                  return (
-                    <li key={index}>{listitem}</li>
-                  )
-                })}
-              </ul>
-            )}
-        })} */}
       </section>
     </div>
   )

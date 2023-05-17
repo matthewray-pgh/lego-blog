@@ -5,13 +5,13 @@
     padding-bottom: 50px;
 
     &--title {
-      font-size: 2em;
+      font-size: 1.75em;
       font-weight: 700;
       margin: 0 auto;
     }
 
     &--subtitle {
-      font-size: 1.25em;
+      font-size: 1.15em;
       font-weight: 500;
       color: #858585;
       margin: 0 auto;
@@ -32,18 +32,19 @@
       margin: 0 auto;
 
       width: 100%;
-      height: auto;
-      object-fit: cover;
 
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      margin-bottom: 20px;
     }
 
     &--details {
       display: grid;
       grid-template-rows: repeat(4, 1fr);
+      
+      font-size: 1.25em;
+      color: #65b2be;
 
       & div {
         align-self: center;
@@ -52,15 +53,10 @@
       }
 
       &-heading {
-        color: #65b2be;
-        font-size: 1.25em;
-        font-weight: 500;
         font-variant: small-caps;
       }
 
       &-data {
-        color: #65b2be;
-        font-size: 2em;
         font-weight: 700;
       }
     }

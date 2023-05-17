@@ -1,11 +1,115 @@
+$secondary-color: #65b2be;
+
 .sets {
   height: 100vh;
+
+  &__content {
+    padding: 10px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+
+    font-size: 0.9em;
+  }
+
+  &__content-heading {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    
+    grid-gap: 10px;
+    padding: 5px;
+
+    font-weight: 700;
+  }
+
+  &__content-link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__content-list {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "name item category ages pieces points minifigs";
+    grid-gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background-color: #fff;
+    border-radius: 5px;
+
+    &:hover {
+      border: 1px solid $secondary-color;
+      font-weight: 600;
+    }
+  }
+
+  &__content-footer {
+    font-size: 0.8em;
+    text-align: right;
+    padding: 5px 10px;
+  }
+
+  &__mobile-label {
+    display: none;
+  }
 }
+
+.set-name {
+  grid-area: name;
+}
+
+.set-item {
+  grid-area: item;
+}
+
+.set-category {
+  grid-area: category;
+}
+
+.set-ages {
+  grid-area: ages;
+}
+
+.set-pieces {
+  grid-area: pieces;
+}
+
+.set-points {
+  grid-area: points;
+}
+
+.set-minifigs {
+  grid-area: minifigs;
+}
+
+
 
 /* mobile */
 @media (max-width: 600px) {
   .sets {
     margin: 0 20px;
+
+    &__content-heading {
+      display: none;
+    }
+
+    &__content-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+        "name name name name"
+        "category category item item"
+        "ages pieces points minfigs";
+      padding: 10px;
+      margin-bottom: 10px;
+
+      font-size: 1.15em;
+    }
+
+    &__mobile-label {
+      display: block;
+      font-size: 0.8em;
+      color: $secondary-color;
+    }
   }
 }
 
