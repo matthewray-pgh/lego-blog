@@ -1,3 +1,50 @@
 [
-  40377, 75355
+  {
+    "item": "40377",
+    "name": "Donald Duck",
+    "category": "Disney",
+    "ages": "10+",
+    "pieces": "90",
+    "points": "65",
+    "minifigs": "0",
+    "affliateLink": "https://click.linksynergy.com/link?id=2aaNR9XQXf8&offerid=1182088.40377&type=2&murl=https%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fdonald-duck-40377",
+    "image": "40377/40377-1.png",
+    "description": "Introducing the fun and quirky Donald Duck Lego Brickheadz! With his signature sailor hat and bright orange bill, this collectible figure is a must-have for any Disney fan. Standing on his own buildable collector's baseplate, Donald Duck is ready to join your Brickheadz collection and bring some mischief and humor to your display. Get ready to create some nostalgic Disney magic with this lovable and iconic character in Lego form!"
+  },
+  {
+    "item": "75355",
+    "name": "X-Wing Starfighter",
+    "category": "Star Wars",
+    "ages": "18+",
+    "pieces": "1949",
+    "points": "1560",
+    "minifigs": "2",
+    "url": "https://www.lego.com/en-us/product/x-wing-starfighter-75355",
+    "image": "75355/75355-1.png",
+    "description": "Here is the Star Wars X-wing Starfighter set. This set features 1949 pieces and includes an intricately detailed model of the iconic spacecraft, complete with adjustable wings, a cockpit that can be opened, and a highly detailed interior. The set also comes with two minifigures - Luke Skywalker and R2-D2 - equipped with their lightsabers and blasters. The X-wing Starfighter set is perfect for both LEGO enthusiasts and Star Wars fans, providing a fun and challenging building experience and a stunning display piece to add to any collection."
+  },
+  {
+    "item": "43229",
+    "name": "Ariel's Treasure Chest",
+    "category": "Disney",
+    "ages": "6+",
+    "pieces": "370",
+    "points": "292",
+    "minifigs": "0",
+    "affliateLink": "https://www.lego.com/en-us/product/ariel-s-treasure-chest-43229?CMP=AFC-AffiliateUS-2aaNR9XQXf8-4065217-1182088-43229",
+    "image": "43229/43229.png",
+    "description": "Appeal to creative kids and Disney fans aged 6 and up with this LEGO® À Disney Ariel s Treasure Chest (43229) set. It features a chest with opening lid, opening drawers and spinning turntable, plus lots of thingamabobs. There s also a Disney s Ariel LEGO mini-doll figure with blue diamond dress, Flounder and Sebastian LEGO animal figures and a DOTS bracelet with a variety of tiles for decorating. As they build, kids can enjoy an easy, intuitive adventure with the LEGO Builder app. They can zoom and rotate models in 3D, save sets and track progress. Treasure keeper The chest helps boost children s confidence in their building and decoration skills, and has hidden spaces for them to tuck their own treasures inside. The LEGO mini-doll figure is based on the upcoming live-action Disney s The Little Mermaid movie and can be added to other Disney diamond dress sets (sold separately) to expand the play. This premium buildable toy set will make a fun gift for kids to join the hottest trend."
+  },
+  {
+    "item": "43225",
+    "name": "The Little Mermaid Royal Clamshell",
+    "category": "Disney",
+    "ages": "18+",
+    "pieces": "1808",
+    "points": "1040",
+    "minifigs": "5",
+    "affliateLink": "https://www.lego.com/en-us/product/the-little-mermaid-royal-clamshell-43225?CMP=AFC-AffiliateUS-2aaNR9XQXf8-4065217-1182088-43225",
+    "image": "43225/43225.png",
+    "description": "Share your love of Disney s The Little Mermaid with this LEGO® Disney The Little Mermaid Royal Clamshell (43225) set. Based on the upcoming live-action The Little Mermaid movie, this detailed, 1,808-piece set showcases 3 key areas: King Triton s throne rock, Ariel s hideout filled with treasures and Ursula s mysterious cave all in a unique shell designed for display. Evocative display piece This premium, detailed LEGO set includes 5 well-known characters from the upcoming live-action The Little Mermaid movie Disney Princess Ariel, Karina, Indira, King Triton and Ursula LEGO minifigures, plus Sebastian and Flounder LEGO figures. Once built, the seashell makes an impressive display piece."
+  }
 ]
